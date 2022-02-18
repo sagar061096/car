@@ -1,0 +1,43 @@
+#service{
+    background-image: url(../../Assets/img/10.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #efefef !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    
+    
+}
+
+#service h1{
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+    
+}
+
+#service h1::after{
+    content: "";
+    background-color: #007bff;
+    display: block;
+    height: 3px;
+    width: 250px;
+    margin: 20px auto 5px;
+    
+}
+.service{
+    margin-top: 40px;
+}
+
+.icon{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 90px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
